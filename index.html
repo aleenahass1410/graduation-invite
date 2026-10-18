@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Graduation Celebration</title>
+
+    <meta name="description"
+          content="Join us to celebrate a special graduation milestone.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="invitation">
+
+        <!-- Opening screen -->
+        <section class="intro" id="intro">
+
+            <div class="cap">✦ CLASS OF 2026 ✦</div>
+
+            <h1>A New Chapter<br>Begins</h1>
+
+            <p class="intro-text">
+                You are cordially invited to celebrate
+                a very special milestone.
+            </p>
+
+            <button class="open-button" id="openButton">
+                <span class="envelope">
+                    <span class="envelope-flap"></span>
+                    <span class="envelope-letter">✦</span>
+                </span>
+                <span class="button-text">Open Your Invitation</span>
+            </button>
+
+            <p class="tap-hint">Tap the envelope to reveal the surprise</p>
+
+        </section>
+
+
+        <!-- Invitation card -->
+        <section class="card" id="card" aria-hidden="true">
+
+            <div class="card-content">
+
+                <p class="small-heading">A MILESTONE WORTH CELEBRATING</p>
+
+                <h2>He Did It!</h2>
+
+                <div class="gold-line"></div>
+
+                <p class="graduate-label">Celebrating the graduation of</p>
+
+                <h3 class="graduate-name" id="graduateName">
+                    YOUR BROTHER'S NAME
+                </h3>
+
+                <p class="degree">
+                    YOUR DEGREE / UNIVERSITY
+                </p>
+
+                <p class="message">
+                    With immense pride and happiness,
+                    we invite you to join us for an evening
+                    filled with laughter, love and memories
+                    as we celebrate this incredible achievement.
+                </p>
+
+                <div class="party-details">
+
+                    <div class="detail">
+                        <span class="detail-label">DATE</span>
+                        <span id="partyDate">YOUR PARTY DATE</span>
+                    </div>
+
+                    <div class="detail">
+                        <span class="detail-label">TIME</span>
+                        <span id="partyTime">YOUR PARTY TIME</span>
+                    </div>
+
+                    <div class="detail">
+                        <span class="detail-label">VENUE</span>
+                        <span id="partyVenue">YOUR PARTY VENUE</span>
+                    </div>
+
+                </div>
+
+                <a class="map-button" id="mapButton"
+                   href="#" target="_blank" rel="noopener">
+                    View Venue on Google Maps ↗
+                </a>
+
+                <button class="rsvp-button" id="rsvpButton">
+                    RSVP on WhatsApp
+                </button>
+
+                <p class="closing">Your presence will mean the world to us.</p>
+
+                <p class="footer">WITH LOVE & PRIDE ✦</p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
